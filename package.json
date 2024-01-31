@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-database",
+  "version": "1.0.0",
+  "description": "It's time to put all of this course's knowledge together to create a fullstack application! In this lesson, we will create a Fullstack application by creating the back-end and front-end separately. They will communicate via URL requests, and will be in a ready-to-deploy state by the end of it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  }
+}
